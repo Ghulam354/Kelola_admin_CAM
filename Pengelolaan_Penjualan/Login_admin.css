@@ -1,0 +1,57 @@
+* {
+
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-image: url('upscalemedia-transformed.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+
+hr {
+    width:90%;
+    border: 1px solid black;
+}
+svg{
+    width: 10px;
+    height: 10px;
+
+    background: none;
+}
+.bg-form {
+    width: 100%;
+    max-width: 400px;
+    height: auto; 
+    padding: 20px;
+    
+    background-color: aliceblue;
+
+    border:1px solid black;
+
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+input {
+    width: 60%;
+    height: 30px;
+
+    border-radius: 30px;
+    text-align: center;
+
+    margin: 10px 0px;
+}
+img{
+    width:250px;
+    height:250px;
+
+    border-radius: 90%;
+}

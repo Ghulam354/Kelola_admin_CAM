@@ -32,11 +32,6 @@
 </head>
 <body>
 
-    <?php
-    session_start();
-    $error_message = isset($_SESSION['error_message']) ? $_SESSION['error_message'] : "";
-    unset($_SESSION['error_message']); // Hapus pesan setelah ditampilkan
-    ?>
 
     <form action="Cek_data.php" method="post" class="bg-form">
         <header>
